@@ -62,14 +62,14 @@ To terminate the application:
 ```
 ws:\\localhost:4000\terminate
 ```
-##Tests:
+### Tests:
 To test the application use:
 
 ``` 
 go test -v number-server/app/usercase
 go test -v number-server/app/usercase
 ```
-###Benchmark
+### Benchmark
 There is a basic benchmark test in the path, in the root project tap:
 
 ```
@@ -79,3 +79,4 @@ There is a step tests for [Artillery](https://artillery.io/docs/getting-started/
 ```
 artillery run loadben.yml 
 ```  
+
