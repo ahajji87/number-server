@@ -1,0 +1,16 @@
+server:
+    port: 4000
+    timeouts:
+        read: 1
+        write: 1
+    ws:
+        connections: 5
+        endpoint: /ws
+    shutdown:
+        endpoint": /terminate,
+        timeout": 30
+storage:
+    path: ./output/numbers.log
+app:
+    report:
+        time: 10
