@@ -1,6 +1,6 @@
-#Number-server
+## Number-server
 
-## Description
+### Description
 number-server is a sample go websocket server that handle numbers with 9 digits length.
 It handles by default:
 - 5 concurrent client connections
